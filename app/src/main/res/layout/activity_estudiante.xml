@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".EstudianteAct">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nombre:" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Nombre"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/android"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/androidrb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CURSO DE ANDROID"  />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno de ANDROID" />
+    <RadioGroup
+        android:id="@+id/turnoandroid"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonandroid"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:checked="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mañana" />
+
+        <RadioButton
+            android:id="@+id/radioButton3android"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarde" />
+
+        <RadioButton
+            android:id="@+id/radioButton2android"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noche" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/php"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/phprb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CURSO DE PHP"  />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno de PHP" />
+    <RadioGroup
+        android:id="@+id/turnophp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:gravity="center"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mañana" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarde" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noche" />
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/java"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/javarb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CURSO DE JAVA"  />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turno de JAVA" />
+    <RadioGroup
+        android:id="@+id/turnojava"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonjava"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:gravity="center"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mañana" />
+
+        <RadioButton
+            android:id="@+id/radioButton3java"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarde" />
+
+        <RadioButton
+            android:id="@+id/radioButton2java"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noche" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttoncalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TOTAL MATRICULA" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+</LinearLayout>
